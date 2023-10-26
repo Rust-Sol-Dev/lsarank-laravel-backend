@@ -1,0 +1,222 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.keyword-search {
+    width: 300px !important;
+}
+
+.keyword-search-modal {
+    width: 250px !important;
+}
+
+.search-position {
+    padding-left: 16rem;
+}
+
+.loader {
+    border-top-color: #3498db;
+    -webkit-animation: spinner 1.5s linear infinite;
+    animation: spinner 1.5s linear infinite;
+}
+
+@-webkit-keyframes spinner {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spinner {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.animate-none{
+    animation: none;
+}
+
+.animate-spin{
+    animation: spin 1s linear infinite;
+}
+
+.animate-ping{
+    animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+}
+
+.animate-pulse{
+    animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+.animate-bounce{
+    animation: bounce 1s infinite;
+}
+
+
+.h1-welcome {
+    color: #262323;
+    font-family: system-ui;
+    font-size: 42px;
+    font-weight: 900;
+    margin-top: 0px;
+    margin-bottom: 1px;
+}
+
+.h2-welcome {
+    color: #262323;
+    font-family: arial, sans-serif;
+    font-size: 24px;
+    margin-top: 0px;
+}
+
+.spacing {
+    margin-bottom: 50px;
+}
+
+.link-landing {
+    color: #0c0c80;
+    font-weight: 900;
+}
+
+.chart-container {
+    width: 100% !important;
+    height:600px !important;
+}
+
+.avgMetricsText {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 1rem !important;;
+}
+
+.weeklyAvgMetricsText {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.avgMetricsArrow {
+    font-size: 4.5em;
+    font-weight: 200;
+}
+
+.avgMetricsPercentage {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.locationInput {
+    width: 150px !important;
+    border-radius: 30px !important;
+}
+
+
+.map {
+    height: 650px !important; /* The height is 400 pixels */
+    width: 100%; /* The width is the width of the web page */
+}
+
+
+.vl {
+    border-left: 1px solid rgba(38, 38, 38, 0.27);
+    height: 1500px;
+}
+
+
+.uploader {
+    opacity: 0; /* make transparent */
+    z-index: -1; /* move under anything else */
+    position: absolute; /* don't let it take up space */
+}
+
+.spinner-relative {
+    position: relative;
+}
+
+.center-inner {
+    position: absolute;
+    top: 30%;
+    left: 45%;
+    margin: -25px 0 0 -25px; /* Apply negative top and left margins to truly center the element */
+}
+
+.mapSpinnerHeight {
+    height: 650px !important;
+}
+
+
+.border-top-panel {
+    border-top: var(--ct-border-width) var(--ct-border-style) #0869cb!important;
+}
+
+.panel-data-font{
+    color: #3d405c;
+    margin: 0px 0px 15px 0px;
+    font-family: 'Circular Std Medium';
+}
+
+.text-success-metrics {
+    color: #2ec551 !important;
+    font-weight: 900!important;
+    /*float: right!important;*/
+}
+
+.text-danger-metrics {
+    color: #ef172c !important;
+    font-weight: 900!important;
+    float: right!important;
+}
+
+
+.icon-circle-metrics-success {
+    height: 20px;
+    width: 20px;
+    line-height: 1;
+    padding: 4px 2px;
+    text-align: center;
+    font-size: 12px;
+    display: inline-block;
+    border-radius: 100%;
+    background-color: #c5fad3 !important;
+}
+
+.icon-circle-metrics-danger {
+    height: 20px;
+    width: 20px;
+    line-height: 1;
+    padding: 4px 2px;
+    text-align: center;
+    font-size: 12px;
+    display: inline-block;
+    border-radius: 100%;
+    background-color: #fbd3d5 !important;
+}
+
+.panel-text {
+    color: #3c4244!important;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.billing-title-left {
+    border: unset;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.billing-cell-border {
+    border: 1px groove #262626;
+}
+
+.btn1{
+    background-color:#1abc9c;
+    border:none;
+    border-radius:30px;
+    color:#fff;
+    font-size:15px;
+}
